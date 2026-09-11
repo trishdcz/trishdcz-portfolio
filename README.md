@@ -1,36 +1,155 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Trisha Mae De la Cruz — Personal Portfolio
 
-## Getting Started
+A personal portfolio website built to showcase my background, projects, experience, technical skills, certifications, education, and involvement in community organizations.
 
-First, run the development server:
+The website is designed with a minimalist editorial approach, focusing on clean typography, structured content, subtle interactions, and a simple browsing experience.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Live Website
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🌐 **Portfolio:** https://trishdcz.github.io/
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+> Replace the URL above with your actual deployed portfolio URL if you are hosting it on Vercel or another platform.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## About
 
-## Learn More
+Hi, I'm **Trisha Mae De la Cruz**, an aspiring front-end developer and QA enthusiast with a background in Information Technology.
 
-To learn more about Next.js, take a look at the following resources:
+I enjoy building clean web experiences, learning modern web technologies, and testing digital products to improve their usability and reliability.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This portfolio serves as a central place for my:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Projects
+- Professional experience
+- Technical stack
+- Certifications
+- Education
+- Organizations and community involvement
+- GitHub activity
+- Personal interests
 
-## Deploy on Vercel
+## Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This portfolio is built using modern web technologies.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+| Technology | Purpose |
+| --- | --- |
+| Next.js | React framework and application architecture |
+| React | UI development |
+| TypeScript | Type-safe application development |
+| Tailwind CSS | Styling and responsive layouts |
+| JavaScript | Application logic |
+| HTML | Semantic page structure |
+| CSS | Layout and visual styling |
+| Git | Version control |
+| GitHub | Source control and repository hosting |
+| Figma | UI and design planning |
+| Canva | Visual and creative design |
+| .NET MAUI | Cross-platform application development |
+| C# | Application development |
+
+## Features
+
+### Personal Introduction
+
+A simple hero section introducing who I am, my background, and my current focus in front-end development and QA.
+
+### Projects
+
+A dedicated section for showcasing selected projects, including the technologies and ideas behind each project.
+
+### Experience
+
+Highlights my professional experience and responsibilities, including my current role as a:
+
+**Business Support Associate**  
+Sun Life Canada Philippines Inc., Phoenix Palm NBO  
+**2026 — Present**
+
+### Technical Stack
+
+A compact overview of the technologies, tools, and platforms I use or am currently learning.
+
+### Certifications
+
+Displays professional and online certifications with their:
+
+- Certification title
+- Issuing organization
+- Issue date
+- Credential information
+- Certificate preview
+
+### Education
+
+My academic background includes:
+
+**Bachelor of Science in Information Technology**  
+STI College Legazpi  
+2023 — Present  
+Expected 2027
+
+Capstone project:
+
+> A Web-Based Event Booking and Operations Management System for VRM Events and Management
+
+**Bachelor of Arts in Economics**  
+Ligao Community College  
+2022 — 2023
+
+Cumulative GWA: **1.78**
+
+### Organizations
+
+Community and organization involvement including:
+
+**DevCon Legazpi**  
+Volunteer  
+2026 — Present
+
+**Philippine Red Cross — Ligao City Chapter**  
+Youth Volunteer  
+2022 — 2023
+
+### GitHub Activity
+
+The portfolio includes a section dedicated to GitHub activity and development contributions.
+
+GitHub:
+
+https://github.com/trishdcz
+
+### Outside the IDE
+
+A section highlighting interests and activities outside technology, including:
+
+- Travel
+- Photography
+- Community involvement
+- Volunteering
+
+## Project Structure
+
+The portfolio uses the Next.js App Router and organizes the application into reusable components and public assets.
+
+```text
+portfolio/
+├── public/
+│   ├── certificates/
+│   │   ├── graphic-design-essentials.png
+│   │   └── it-customer-support-basics.png
+│   └── profile.png
+│
+├── src/
+│   ├── app/
+│   │   ├── layout.tsx
+│   │   ├── page.tsx
+│   │   └── globals.css
+│   │
+│   └── components/
+│       └── Sidebar.tsx
+│
+├── package.json
+├── package-lock.json
+├── tsconfig.json
+├── next.config.ts
+└── README.md
