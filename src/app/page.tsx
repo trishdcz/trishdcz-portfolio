@@ -133,7 +133,7 @@ export default function Home() {
               </a>
             </div>
 
-            {/* EXPERIENCE ROW */}
+            {/* EXPERIENCE */}
             <div className="grid grid-cols-[90px_1fr_auto] items-center border-y border-neutral-200 py-4">
 
               <span className="text-sm text-neutral-400">
@@ -335,10 +335,8 @@ export default function Home() {
               </a>
             </div>
 
-            {/* =========================
-                EDUCATION 01
-            ========================== */}
-            <div className="grid grid-cols-[100px_1fr_auto] items-start gap-8 border-t border-neutral-200 py-8">
+            {/* EDUCATION 01 */}
+            <div className="grid grid-cols-[100px_1fr] items-start gap-8 border-t border-neutral-200 py-8">
 
               {/* DATE */}
               <div>
@@ -361,7 +359,7 @@ export default function Home() {
                   Expected graduation · 2027
                 </p>
 
-                <p className="mt-2 max-w-[430px] text-sm leading-6 text-neutral-400">
+                <p className="mt-2 max-w-[450px] text-sm leading-6 text-neutral-400">
                   Capstone · A Web-Based Event Booking and Operations
                   Management System for VRM Events and Management
                 </p>
@@ -369,10 +367,8 @@ export default function Home() {
 
             </div>
 
-            {/* =========================
-                EDUCATION 02
-            ========================== */}
-            <div className="grid grid-cols-[100px_1fr_auto] items-start gap-8 border-t border-neutral-200 py-8">
+            {/* EDUCATION 02 */}
+            <div className="grid grid-cols-[100px_1fr] items-start gap-8 border-t border-neutral-200 py-8">
 
               {/* DATE */}
               <div>
@@ -405,26 +401,76 @@ export default function Home() {
         </section>
 
         {/* =========================
-            05 — AFFILIATIONS
+            05 — ORGANIZATIONS
         ========================== */}
         <section
-          id="affiliations"
-          className="px-8 py-10 md:px-16"
+          id="organizations"
+          className="px-8 py-16 md:px-16"
         >
           <div className="mx-auto max-w-[730px]">
 
-            <div className="flex items-center justify-between">
+            {/* HEADER */}
+            <div className="mb-8 flex items-center justify-between">
               <h2 className="text-lg font-medium tracking-tight">
-                05 — Affiliations
+                05 — Organizations
               </h2>
 
               <a
-                href="#affiliations"
+                href="#organizations"
                 className="text-sm text-neutral-500 transition-colors hover:text-neutral-900"
               >
-                ALL AFFILIATIONS →
+                ALL ORGANIZATIONS →
               </a>
             </div>
+
+            {/* ORGANIZATION 01 */}
+            <div className="grid grid-cols-[100px_1fr] items-start gap-8 border-t border-neutral-200 py-8">
+
+              {/* DATE */}
+              <div>
+                <p className="text-sm text-neutral-400">
+                  2026–Present
+                </p>
+              </div>
+
+              {/* INFORMATION */}
+              <div>
+                <h3 className="text-lg font-medium leading-6">
+                  DevCon Legazpi
+                </h3>
+
+                <p className="mt-1 text-[15px] text-neutral-500">
+                  Volunteer
+                </p>
+              </div>
+
+            </div>
+
+            {/* ORGANIZATION 02 */}
+            <div className="grid grid-cols-[100px_1fr] items-start gap-8 border-t border-neutral-200 py-8">
+
+              {/* DATE */}
+              <div>
+                <p className="text-sm text-neutral-400">
+                  2022–2023
+                </p>
+              </div>
+
+              {/* INFORMATION */}
+              <div>
+                <h3 className="text-lg font-medium leading-6">
+                  Philippine Red Cross
+                </h3>
+
+                <p className="mt-1 text-[15px] text-neutral-500">
+                  Ligao City Chapter · Youth Volunteer
+                </p>
+              </div>
+
+            </div>
+
+            {/* BOTTOM LINE */}
+            <div className="border-t border-neutral-200" />
 
           </div>
         </section>

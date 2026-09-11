@@ -7,8 +7,8 @@ const navigation = [
   { label: "Experience", href: "#experience" },
   { label: "Stack", href: "#stack" },
   { label: "Certifications", href: "#certifications" },
-  { label: "Recommendations", href: "#recommendations" },
-  { label: "Affiliations", href: "#affiliations" },
+  { label: "Education", href: "#education" },
+  { label: "Organizations", href: "#organizations" },
 ];
 
 export default function Sidebar() {
