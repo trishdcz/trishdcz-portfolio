@@ -6,9 +6,7 @@ The website is designed with a minimalist editorial approach, focusing on clean 
 
 ## Live Website
 
-🌐 **Portfolio:** https://trishdcz.github.io/
-
-> Replace the URL above with your actual deployed portfolio URL if you are hosting it on Vercel or another platform.
+🌐 **Portfolio:** YOUR_LIVE_WEBSITE_URL
 
 ## About
 
@@ -59,7 +57,7 @@ A dedicated section for showcasing selected projects, including the technologies
 
 ### Experience
 
-Highlights my professional experience and responsibilities, including my current role as a:
+Highlights my professional experience and responsibilities.
 
 **Business Support Associate**  
 Sun Life Canada Philippines Inc., Phoenix Palm NBO  
@@ -79,6 +77,17 @@ Displays professional and online certifications with their:
 - Credential information
 - Certificate preview
 
+Current certifications include:
+
+**Graphic Design Essentials**  
+Canva Design School  
+Issued June 5, 2026  
+Credential ID: `f2ec89`
+
+**IT Customer Support Basics**  
+Cisco  
+Issued June 30, 2026
+
 ### Education
 
 My academic background includes:
@@ -88,9 +97,8 @@ STI College Legazpi
 2023 — Present  
 Expected 2027
 
-Capstone project:
-
-> A Web-Based Event Booking and Operations Management System for VRM Events and Management
+**Capstone Project:**  
+*A Web-Based Event Booking and Operations Management System for VRM Events and Management*
 
 **Bachelor of Arts in Economics**  
 Ligao Community College  
