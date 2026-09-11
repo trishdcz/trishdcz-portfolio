@@ -33,7 +33,6 @@ export default function Home() {
               {/* INTRO */}
               <div className="relative h-[320px]">
 
-                {/* NAME + INTRO */}
                 <div className="pt-4">
                   <h1 className="whitespace-nowrap text-[40px] font-medium leading-none tracking-[-0.045em] md:text-[44px]">
                     Trisha Mae De la Cruz
@@ -209,11 +208,12 @@ export default function Home() {
         ========================== */}
         <section
           id="certifications"
-          className="px-8 py-10 md:px-16"
+          className="px-8 py-16 md:px-16"
         >
           <div className="mx-auto max-w-[730px]">
 
-            <div className="flex items-center justify-between">
+            {/* HEADER */}
+            <div className="mb-8 flex items-center justify-between">
               <h2 className="text-lg font-medium tracking-tight">
                 03 — Certifications
               </h2>
@@ -226,30 +226,180 @@ export default function Home() {
               </a>
             </div>
 
+            {/* CERTIFICATION 01 */}
+            <div className="grid grid-cols-[100px_1fr_150px] items-start gap-8 border-t border-neutral-200 py-8">
+
+              {/* DATE */}
+              <div>
+                <p className="text-sm text-neutral-400">
+                  Jun 2026
+                </p>
+              </div>
+
+              {/* INFORMATION */}
+              <div>
+                <h3 className="text-lg font-medium leading-6">
+                  Graphic Design Essentials
+                </h3>
+
+                <p className="mt-1 text-[15px] text-neutral-500">
+                  Canva Design School
+                </p>
+
+                <p className="mt-4 text-sm text-neutral-400">
+                  Credential ID · f2ec89
+                </p>
+
+                <p className="mt-1 text-sm text-neutral-400">
+                  Date issued · June 5, 2026
+                </p>
+              </div>
+
+              {/* CERTIFICATE IMAGE */}
+              <div className="overflow-hidden rounded-lg border border-neutral-200">
+                <Image
+                  src="/certificates/graphic-design-essentials.png"
+                  alt="Graphic Design Essentials certificate"
+                  width={150}
+                  height={105}
+                  className="h-auto w-full object-cover"
+                />
+              </div>
+
+            </div>
+
+            {/* CERTIFICATION 02 */}
+            <div className="grid grid-cols-[100px_1fr_150px] items-start gap-8 border-t border-neutral-200 py-8">
+
+              {/* DATE */}
+              <div>
+                <p className="text-sm text-neutral-400">
+                  Jun 2026
+                </p>
+              </div>
+
+              {/* INFORMATION */}
+              <div>
+                <h3 className="text-lg font-medium leading-6">
+                  IT Customer Support Basics
+                </h3>
+
+                <p className="mt-1 text-[15px] text-neutral-500">
+                  Cisco
+                </p>
+
+                <p className="mt-4 text-sm text-neutral-400">
+                  Date issued · June 30, 2026
+                </p>
+              </div>
+
+              {/* CERTIFICATE IMAGE */}
+              <div className="overflow-hidden rounded-lg border border-neutral-200">
+                <Image
+                  src="/certificates/it-customer-support-basics.png"
+                  alt="IT Customer Support Basics certificate"
+                  width={150}
+                  height={105}
+                  className="h-auto w-full object-cover"
+                />
+              </div>
+
+            </div>
+
+            {/* BOTTOM LINE */}
+            <div className="border-t border-neutral-200" />
+
           </div>
         </section>
 
         {/* =========================
-            04 — RECOMMENDATIONS
+            04 — EDUCATION
         ========================== */}
         <section
-          id="recommendations"
-          className="px-8 py-10 md:px-16"
+          id="education"
+          className="px-8 py-16 md:px-16"
         >
           <div className="mx-auto max-w-[730px]">
 
-            <div className="flex items-center justify-between">
+            {/* HEADER */}
+            <div className="mb-8 flex items-center justify-between">
               <h2 className="text-lg font-medium tracking-tight">
-                04 — Recommendations
+                04 — Education
               </h2>
 
               <a
-                href="#recommendations"
+                href="#education"
                 className="text-sm text-neutral-500 transition-colors hover:text-neutral-900"
               >
-                ALL RECOMMENDATIONS →
+                ALL EDUCATION →
               </a>
             </div>
+
+            {/* =========================
+                EDUCATION 01
+            ========================== */}
+            <div className="grid grid-cols-[100px_1fr_auto] items-start gap-8 border-t border-neutral-200 py-8">
+
+              {/* DATE */}
+              <div>
+                <p className="text-sm text-neutral-400">
+                  2023–Present
+                </p>
+              </div>
+
+              {/* INFORMATION */}
+              <div>
+                <h3 className="text-lg font-medium leading-6">
+                  Bachelor of Science in Information Technology
+                </h3>
+
+                <p className="mt-1 text-[15px] text-neutral-500">
+                  STI College Legazpi
+                </p>
+
+                <p className="mt-4 text-sm leading-6 text-neutral-400">
+                  Expected graduation · 2027
+                </p>
+
+                <p className="mt-2 max-w-[430px] text-sm leading-6 text-neutral-400">
+                  Capstone · A Web-Based Event Booking and Operations
+                  Management System for VRM Events and Management
+                </p>
+              </div>
+
+            </div>
+
+            {/* =========================
+                EDUCATION 02
+            ========================== */}
+            <div className="grid grid-cols-[100px_1fr_auto] items-start gap-8 border-t border-neutral-200 py-8">
+
+              {/* DATE */}
+              <div>
+                <p className="text-sm text-neutral-400">
+                  2022–2023
+                </p>
+              </div>
+
+              {/* INFORMATION */}
+              <div>
+                <h3 className="text-lg font-medium leading-6">
+                  Bachelor of Arts in Economics
+                </h3>
+
+                <p className="mt-1 text-[15px] text-neutral-500">
+                  Ligao Community College
+                </p>
+
+                <p className="mt-4 text-sm text-neutral-400">
+                  Cumulative GWA · 1.78
+                </p>
+              </div>
+
+            </div>
+
+            {/* BOTTOM LINE */}
+            <div className="border-t border-neutral-200" />
 
           </div>
         </section>

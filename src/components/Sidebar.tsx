@@ -16,7 +16,7 @@ export default function Sidebar() {
 
   return (
     <aside className="fixed left-0 top-0 z-50 flex h-screen w-[280px] flex-col overflow-hidden border-r border-neutral-200 bg-white px-7 py-8">
-      
+
       {/* HOME / LOGO */}
       <a
         href="#home"
@@ -65,6 +65,7 @@ export default function Sidebar() {
 
       {/* CONTROLS */}
       <div className="mt-4 flex items-center gap-2">
+
         {/* LIGHT MODE */}
         <button
           type="button"
@@ -110,6 +111,7 @@ export default function Sidebar() {
           <span>trishdlcz@gmail.com</span>
         </a>
       </div>
+
     </aside>
   );
 }
